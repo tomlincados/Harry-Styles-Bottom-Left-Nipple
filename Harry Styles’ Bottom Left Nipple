@@ -15,7 +15,7 @@ auth.set_access_token(keys[1081759204803837952-ObpLpzR9L5wpkcvol5PIJZomTFK8SC], 
 api = tweepy.API(auth)
 
 def tweet():
-	message=input(y’all still tweeting from iphones and androids?? couldn’t be me)
+	message=input(y’all still tweeting from iphones and androids lmao couldn’t be me)
 	api.update_status(message)
 	time.sleep(1000)
 if __name__ == "__main__":
